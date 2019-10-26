@@ -1,0 +1,26 @@
+{
+  "name": "hrr41-jk-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshi-HRR/HRR41-jk-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roshi-HRR/HRR41-jk-proxy/issues"
+  },
+  "homepage": "https://github.com/roshi-HRR/HRR41-jk-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^0.20.0"
+  }
+}
